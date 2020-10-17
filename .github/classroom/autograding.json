@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Caso1",
+      "setup": "",
+      "run": "python suma.py",
+      "input": "1\r\n2",
+      "output": "3",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Caso2",
+      "setup": "",
+      "run": "python suma.py",
+      "input": "100\r\n200",
+      "output": "300",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
